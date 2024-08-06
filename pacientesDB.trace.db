@@ -1,0 +1,18 @@
+2024-08-06 18:25:47.669060-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" already exists; SQL statement:
+CREATE TABLE Pacientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,    nombre VARCHAR(50) NOT NULL,    apellido VARCHAR(50) NOT NULL,    domicilio VARCHAR(100),    dni INT NOT NULL UNIQUE,    fecha_de_alta VARCHAR(50),    usuario VARCHAR(50) NOT NULL UNIQUE,    password VARCHAR(255) NOT NULL) [42101-230]
+2024-08-06 18:28:10.728664-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" already exists; SQL statement:
+CREATE TABLE Pacientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,    nombre VARCHAR(50) NOT NULL,    apellido VARCHAR(50) NOT NULL,    domicilio VARCHAR(100),    dni INT NOT NULL UNIQUE,    fecha_de_alta VARCHAR(50),    usuario VARCHAR(50) NOT NULL UNIQUE,    password VARCHAR(255) NOT NULL) [42101-230]
+2024-08-06 18:28:10.764423-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The object is already closed [90007-230]
+2024-08-06 18:29:05.564052-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" already exists; SQL statement:
+CREATE TABLE Pacientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,    nombre VARCHAR(50) NOT NULL,    apellido VARCHAR(50) NOT NULL,    domicilio VARCHAR(100),    dni INT NOT NULL UNIQUE,    fecha_de_alta VARCHAR(50),    usuario VARCHAR(50) NOT NULL UNIQUE,    password VARCHAR(255) NOT NULL) [42101-230]
+2024-08-06 18:30:02.576480-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PACIENTES" already exists; SQL statement:
+CREATE TABLE Pacientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,    nombre VARCHAR(50) NOT NULL,    apellido VARCHAR(50) NOT NULL,    domicilio VARCHAR(100),    dni INT NOT NULL UNIQUE,    fecha_de_alta VARCHAR(50),    usuario VARCHAR(50) NOT NULL UNIQUE,    password VARCHAR(255) NOT NULL) [42101-230]
